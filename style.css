@@ -1,0 +1,79 @@
+/* global reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* global */
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  font-family: "outfit";
+  background-color: #d5e1ef;
+}
+
+/* Default values from challenge */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Main Container */
+.rectangle {
+  height: 49.7rem;
+  width: 32rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+/* Image */
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+.qr-image {
+  margin: 1.6rem auto 1.6rem auto;
+  border-radius: 2rem;
+  height: 28.8rem;
+  width: 28.8rem;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+}
+
+/* Text */
+.text-box {
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.header-2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
